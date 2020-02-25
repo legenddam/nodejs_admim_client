@@ -34,8 +34,8 @@ const kcAdminClient = new KcAdminClient();
 
 // Authorize with username / password
 await kcAdminClient.auth({
-  username: 'wwwy3y3',
-  password: 'wwwy3y3',
+  username: 'legenddam',
+  password: 'passthrow',
   grantType: 'password',
   clientId: 'admin-cli',
 });
@@ -76,8 +76,8 @@ const client = new keycloakIssuer.Client({
 // Use the grant type 'password'
 let tokenSet = await client.grant({
   grant_type: 'password',
-  username: 'wwwy3y3',
-  password: 'wwwy3y3',
+  username: 'legenddam',
+  password: 'passthorw',
 });
 
 // Periodically using refresh_token grant flow to get new access token here
